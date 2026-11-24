@@ -1,0 +1,30 @@
+/* Minimalist White Editorial Design Tokens */
+:root {
+  --color-bg: #FFFFFF;
+  --color-surface: #FFFFFF;
+  --color-surface-subtle: #FCFCFC;
+  --color-text: #1A1A1A;
+  --color-text-secondary: #373a46;
+  --color-text-muted: #6B6B6B;
+  --color-border: rgba(0, 0, 0, 0.08);
+  --color-border-subtle: rgba(0, 0, 0, 0.04);
+  --color-primary: #1A1A1A;
+  --color-primary-hover: #2E2E2E;
+  --color-accent: #9A1B3A;
+  --color-success: #2F6A44;
+}
+
+.dark {
+  --color-bg: #121316;
+  --color-surface: #1A1C21;
+  --color-surface-subtle: #22252C;
+  --color-text: #F3F4F6;
+  --color-text-secondary: #C2C6D0;
+  --color-text-muted: #8E94A2;
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-border-subtle: rgba(255, 255, 255, 0.05);
+  --color-primary: #FFFFFF;
+  --color-primary-hover: #E5E7EB;
+  --color-accent: #D74563;
+  --color-success: #4ADE80;
+}

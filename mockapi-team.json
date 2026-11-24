@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "name": "Satria Fadhil",
+    "role": "Project Lead & Fullstack Engineer",
+    "bio": "Berfokus pada arsitektur sistem modular, manajemen state front-end berskala besar, serta integrasi RESTful microservices.",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+    "skills": [
+      "Vue.js",
+      "Node.js",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "Docker",
+      "REST API"
+    ],
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "email": "satria@kelompok2.dev",
+    "contribution": "Memimpin perancangan arsitektur sistem, integrasi API, dan koordinasi sprint tim."
+  },
+  {
+    "id": 2,
+    "name": "Ahmad Farhan",
+    "role": "Frontend Architect & UI Engineer",
+    "bio": "Spesialis dalam interaktivitas antarmuka, optimasi performa web, dan implementasi reusable component system yang scalable.",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+    "skills": [
+      "Vue 3",
+      "Vite",
+      "Pinia",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vitest"
+    ],
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "email": "farhan@kelompok2.dev",
+    "contribution": "Mengembangkan sistem komponen modular, routing, dan implementasi Pinia store."
+  },
+  {
+    "id": 3,
+    "name": "Nadia Putri",
+    "role": "UI/UX Designer & Design System Lead",
+    "bio": "Berpengalaman dalam riset pengalaman pengguna, prototyping tingkat lanjut di Figma, dan penerjemahan desain heuristik Nielsen.",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
+    "skills": [
+      "Figma",
+      "Design Tokens",
+      "Wireframing",
+      "User Research",
+      "Prototyping",
+      "UI Heuristics"
+    ],
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "email": "nadia@kelompok2.dev",
+    "contribution": "Merancang seluruh user flow, wireframe, design tokens, dan evaluasi heuristik desain."
+  },
+  {
+    "id": 4,
+    "name": "Bima Pratama",
+    "role": "Backend & Cloud Engineer",
+    "bio": "Menangani skalabilitas API, database relational, pipeline CI/CD, dan keamanan deployment pada lingkungan cloud modern.",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+    "skills": [
+      "Express.js",
+      "Supabase",
+      "Redis",
+      "Google Cloud",
+      "Nginx",
+      "Jest"
+    ],
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "email": "bima@kelompok2.dev",
+    "contribution": "Menyediakan mock server, arsitektur endpoint, dan dokumentasi request-response API."
+  },
+  {
+    "id": 5,
+    "name": "Rizky Ramadhan",
+    "role": "Mobile & Quality Assurance Specialist",
+    "bio": "Fokus pada pengujian fungsionalitas, unit testing otomatis, validasi responsivitas lintas platform, dan audit bug.",
+    "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80",
+    "skills": [
+      "Vitest",
+      "Vue Test Utils",
+      "Cypress",
+      "Flutter",
+      "Clean Architecture",
+      "Git QA"
+    ],
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "email": "rizky@kelompok2.dev",
+    "contribution": "Membuat skenario pengujian test case, unit test komponen, dan pengujian responsivitas."
+  },
+  {
+    "id": 6,
+    "name": "Siti Aisyah",
+    "role": "Data & AI Integration Specialist",
+    "bio": "Mendalami machine learning terapan, analitik data pengguna, dan integrasi visualisasi data interaktif ke dalam dashboard web.",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "Data Viz",
+      "Chart.js",
+      "SQL",
+      "Machine Learning"
+    ],
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "email": "aisyah@kelompok2.dev",
+    "contribution": "Merancang visualisasi metrik performa proyek dan pengolahan data portofolio tim."
+  }
+]

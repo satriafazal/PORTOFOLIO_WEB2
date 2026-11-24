@@ -1,0 +1,751 @@
+[
+  {
+    "id": 1,
+    "title": "EduTrack LMS - NextGen E-Learning Portal",
+    "slug": "edutrack-lms",
+    "category": "Web Application",
+    "summary": "Platform pembelajaran terintegrasi dengan fitur modul interaktif, tracking absensi real-time, dan analitik nilai siswa.",
+    "description": "EduTrack LMS dikembangkan untuk mengatasi keterbatasan platform e-learning konvensional yang kaku. Dengan sistem antarmuka responsif dan modular, platform ini memudahkan guru dan siswa dalam memantau kurikulum, tugas daring, dan evaluasi berbasis data secara langsung.",
+    "features": [
+      "Real-time progress tracker untuk modul dan ujian",
+      "Interactive video player dengan catatan timestamp",
+      "Sistem penilaian otomatis & download rapor PDF",
+      "Role-based access control (Admin, Guru, Siswa)"
+    ],
+    "techStack": [
+      "Vue 3",
+      "Vite",
+      "Tailwind CSS",
+      "Pinia",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 1,
+    "leadMemberName": "Satria Fadhil",
+    "contributors": [
+      {
+        "name": "Satria Fadhil",
+        "role": "Fullstack Architect"
+      },
+      {
+        "name": "Ahmad Farhan",
+        "role": "Frontend Developer"
+      },
+      {
+        "name": "Nadia Putri",
+        "role": "UI/UX Designer"
+      }
+    ],
+    "liveUrl": "https://example.com/edutrack",
+    "githubUrl": "https://github.com/example/edutrack-lms",
+    "status": "Completed",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "AgriSmart - IoT Smart Agriculture Dashboard",
+    "slug": "agrismart-iot",
+    "category": "Cloud & IoT",
+    "summary": "Dashboard monitoring sensor kelembapan tanah, suhu udara, dan otomasi penyiraman berbasis telemetri IoT.",
+    "description": "AgriSmart menjembatani teknologi internet-of-things dengan sektor agrikultur lokal. Melalui visualisasi data grafis yang intuitif, petani dapat memantau kondisi tanah secara presisi dan mengaktifkan katup irigasi dari jarak jauh untuk efisiensi air hingga 35%.",
+    "features": [
+      "Monitoring grafik telemetri sensor real-time via WebSocket",
+      "Early warning alert otomatis via push notification",
+      "Otomasi penjadwalan irigasi pintar berbasis kondisi cuaca",
+      "Laporan ekspor data historis sensor ke CSV/Excel"
+    ],
+    "techStack": [
+      "Vue.js",
+      "Chart.js",
+      "Tailwind CSS",
+      "MQTT",
+      "Express.js"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 1,
+    "leadMemberName": "Satria Fadhil",
+    "contributors": [
+      {
+        "name": "Satria Fadhil",
+        "role": "Backend & IoT Integration"
+      },
+      {
+        "name": "Bima Pratama",
+        "role": "Infrastructure Engineer"
+      }
+    ],
+    "liveUrl": "https://example.com/agrismart",
+    "githubUrl": "https://github.com/example/agrismart-iot",
+    "status": "Completed",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": "Medico - Telehealth Consultation Portal",
+    "slug": "medico-telehealth",
+    "category": "Web Application",
+    "summary": "Aplikasi konsultasi dokter online dengan antarmuka video call, rekam medis digital, dan tebus obat otomatis.",
+    "description": "Medico menyederhanakan akses layanan kesehatan dengan antarmuka bersih dan ramah pengguna bagi berbagai rentang usia. Mengedepankan privasi rekam medis pasien serta alur pendaftaran dokter yang terstruktur tanpa antrean fisik.",
+    "features": [
+      "Sistem booking jadwal konsultasi terintegrasi kalender dokter",
+      "Chat terenkripsi dan video consultation room",
+      "Resep obat digital langsung terhubung ke apotek rekanan",
+      "Riwayat rekam medis dan catatan diagnosis pasien"
+    ],
+    "techStack": [
+      "Vue 3",
+      "WebRTC",
+      "Pinia",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 1,
+    "leadMemberName": "Satria Fadhil",
+    "contributors": [
+      {
+        "name": "Satria Fadhil",
+        "role": "Fullstack Lead"
+      },
+      {
+        "name": "Nadia Putri",
+        "role": "UX Researcher"
+      },
+      {
+        "name": "Rizky Ramadhan",
+        "role": "QA Engineer"
+      }
+    ],
+    "liveUrl": "https://example.com/medico",
+    "githubUrl": "https://github.com/example/medico-portal",
+    "status": "Completed",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "FinFlow - Personal Finance & Budget Tracker",
+    "slug": "finflow-finance",
+    "category": "Web Application",
+    "summary": "Aplikasi manajemen anggaran cerdas dengan visualisasi diagram arus kas dan kalkulator target tabungan.",
+    "description": "FinFlow membantu pengguna mengatur keuangan personal dengan pendekatan minimalis. Mengutamakan kemudahan pencatatan transaksi harian dalam 3 ketukan dan insight visual tentang pos pengeluaran terbesar setiap bulannya.",
+    "features": [
+      "Multi-account management (Dompet tunai, rekening bank, e-wallet)",
+      "Diagram interaktif breakdown pengeluaran bulanan",
+      "Fitur recurring transaction & budgeting alert saat over-budget",
+      "Mode offline-ready dengan sinkronisasi otomatis"
+    ],
+    "techStack": [
+      "Vue 3",
+      "Vite",
+      "Pinia",
+      "Tailwind CSS",
+      "IndexedDB"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 2,
+    "leadMemberName": "Ahmad Farhan",
+    "contributors": [
+      {
+        "name": "Ahmad Farhan",
+        "role": "Frontend Lead"
+      },
+      {
+        "name": "Satria Fadhil",
+        "role": "Reviewer"
+      }
+    ],
+    "liveUrl": "https://example.com/finflow",
+    "githubUrl": "https://github.com/example/finflow-app",
+    "status": "Completed",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "title": "UrbanMove - Live Transit & Bus Tracking",
+    "slug": "urbanmove-transit",
+    "category": "Web Application",
+    "summary": "Peta navigasi transportasi publik terpadu dengan pelacakan lokasi armada bus dan estimasi waktu kedatangan.",
+    "description": "UrbanMove dirancang untuk mobilitas komuter perkotaan. Menggabungkan data GPS bus transit dengan antarmuka peta interaktif yang ringan dan responsif pada peramban mobile.",
+    "features": [
+      "Live tracking posisi armada di atas peta Mapbox/Leaflet",
+      "Pencarian rute multimoda tercepat dengan estimasi ongkos",
+      "Notifikasi halte pemberhentian berikutnya",
+      "Simpan rute favorit untuk akses cepat"
+    ],
+    "techStack": [
+      "Vue.js",
+      "Leaflet.js",
+      "Tailwind CSS",
+      "GeoJSON",
+      "REST API"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 2,
+    "leadMemberName": "Ahmad Farhan",
+    "contributors": [
+      {
+        "name": "Ahmad Farhan",
+        "role": "Frontend Developer"
+      },
+      {
+        "name": "Bima Pratama",
+        "role": "API Gateway"
+      }
+    ],
+    "liveUrl": "https://example.com/urbanmove",
+    "githubUrl": "https://github.com/example/urbanmove",
+    "status": "Completed",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "EventHub - Ticketing & Conference Platform",
+    "slug": "eventhub-platform",
+    "category": "Web Application",
+    "summary": "Sistem registrasi event dan e-ticketing berbasis QR code dengan dashboard analitik pengunjung langsung.",
+    "description": "EventHub menyediakan solusi end-to-end bagi promotor seminar, workshop, dan festival musik. Memungkinkan pemesanan tiket cepat dengan gateway pembayaran dan verifikasi tiket instan di pintu masuk.",
+    "features": [
+      "Katalog event dengan filter kategori tanggal dan kota",
+      "Pemilihan kursi (seat map) interaktif",
+      "Generate e-ticket berbasis QR Code terenkripsi",
+      "Check-in scanner terintegrasi kamera browser"
+    ],
+    "techStack": [
+      "Vue 3",
+      "Pinia",
+      "Tailwind CSS",
+      "QR Generator",
+      "Stripe API"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 2,
+    "leadMemberName": "Ahmad Farhan",
+    "contributors": [
+      {
+        "name": "Ahmad Farhan",
+        "role": "UI Engineer"
+      },
+      {
+        "name": "Nadia Putri",
+        "role": "UI Designer"
+      }
+    ],
+    "liveUrl": "https://example.com/eventhub",
+    "githubUrl": "https://github.com/example/eventhub",
+    "status": "Completed",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "title": "KopiKita - Specialty Coffee Ordering UI Kit",
+    "slug": "kopikita-app",
+    "category": "UI/UX Design",
+    "summary": "Perancangan pengalaman antarmuka dan design system komprehensif untuk aplikasi mobile pemesanan kopi artisanal.",
+    "description": "KopiKita berfokus pada emosi dan estetika kenikmatan ngopi. Desain dibuat dengan pendekatan Neumorphism halus dan micro-interactions pada kustomisasi racikan kopi (level manis, jenis susu, ukuran cup).",
+    "features": [
+      "Sistem design tokens lengkap (warna, tipografi, radius)",
+      "Interaktif custom coffee configurator dengan animasi smooth",
+      "Alur checkout 2 langkah ramah pengguna satu tangan",
+      "Komponen loyalti poin dan voucher diskon"
+    ],
+    "techStack": [
+      "Figma",
+      "Design Tokens",
+      "Vue 3 Prototype",
+      "Tailwind CSS"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 3,
+    "leadMemberName": "Nadia Putri",
+    "contributors": [
+      {
+        "name": "Nadia Putri",
+        "role": "Lead Product Designer"
+      },
+      {
+        "name": "Ahmad Farhan",
+        "role": "Prototyping Engineer"
+      }
+    ],
+    "liveUrl": "https://example.com/kopikita",
+    "githubUrl": "https://github.com/example/kopikita-design",
+    "status": "Completed",
+    "featured": true
+  },
+  {
+    "id": 8,
+    "title": "MindEase - Mental Health Companion App",
+    "slug": "mindease-app",
+    "category": "UI/UX Design",
+    "summary": "Desain antarmuka aplikasi kesehatan mental dengan mood tracker harian, sesi meditasi audio, dan breathing exercises.",
+    "description": "Mengutamakan palet warna yang menenangkan dan visualisasi minimalis. Diuji menggunakan metode usability testing dengan 15 partisipan untuk memastikan pengalaman yang bebas stres dan intuitif.",
+    "features": [
+      "Mood logging dengan visualisasi emoji kinetik",
+      "Audio player meditasi terpandu dengan background ambient sound",
+      "Latihan pernapasan interaktif dengan animasi napas santai",
+      "Jurnal harian privat dengan proteksi PIN/Biometrik"
+    ],
+    "techStack": [
+      "Figma",
+      "UX Research",
+      "Design Heuristics",
+      "CSS Animations"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 3,
+    "leadMemberName": "Nadia Putri",
+    "contributors": [
+      {
+        "name": "Nadia Putri",
+        "role": "UI/UX Specialist"
+      },
+      {
+        "name": "Rizky Ramadhan",
+        "role": "Usability Tester"
+      }
+    ],
+    "liveUrl": "https://example.com/mindease",
+    "githubUrl": "https://github.com/example/mindease-ui",
+    "status": "Completed",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "title": "EcoSort - Gamified Waste Management App",
+    "slug": "ecosort-app",
+    "category": "Mobile App",
+    "summary": "Aplikasi edukasi pemilahan sampah berbasis misi harian dan reward poin daur ulang untuk kelestarian lingkungan.",
+    "description": "EcoSort mengubah kebiasaan membuang sampah menjadi kegiatan yang menyenangkan. Pengguna mendapatkan poin setiap kali memindai sampah anorganik yang disetorkan ke bank sampah terdekat.",
+    "features": [
+      "Pencari drop point bank sampah terdekat dengan navigasi GPS",
+      "Katalog penukaran poin reward dengan pulsa & e-money",
+      "Leaderboard komunitas pelestari lingkungan",
+      "Panduan daur ulang kreatif DIY step-by-step"
+    ],
+    "techStack": [
+      "Vue.js",
+      "Capacitor",
+      "Tailwind CSS",
+      "Figma Design"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 3,
+    "leadMemberName": "Nadia Putri",
+    "contributors": [
+      {
+        "name": "Nadia Putri",
+        "role": "UI Designer"
+      },
+      {
+        "name": "Satria Fadhil",
+        "role": "Mobile Developer"
+      }
+    ],
+    "liveUrl": "https://example.com/ecosort",
+    "githubUrl": "https://github.com/example/ecosort",
+    "status": "Completed",
+    "featured": false
+  },
+  {
+    "id": 10,
+    "title": "CloudVault - Secure Distributed File Storage",
+    "slug": "cloudvault-storage",
+    "category": "Cloud & IoT",
+    "summary": "Platform penyimpanan file terenkripsi client-side dengan dukungan share link berbatas waktu dan zero-knowledge proof.",
+    "description": "CloudVault dibangun dengan fokus privasi tingkat tinggi. Setiap file dienkripsi di peramban sebelum dikirim ke server penyimpanan, menjamin hanya pemilik kunci yang dapat mendekripsinya.",
+    "features": [
+      "Enkripsi file AES-256 langsung di sisi peramban",
+      "Tautan berbagi file dengan batas kadaluarsa waktu & password",
+      "Manajemen folder bersarang (nested) dengan drag-and-drop",
+      "Activity audit log untuk memantau akses unduhan"
+    ],
+    "techStack": [
+      "Vue 3",
+      "Node.js",
+      "MinIO / S3",
+      "Web Crypto API",
+      "Tailwind CSS"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 4,
+    "leadMemberName": "Bima Pratama",
+    "contributors": [
+      {
+        "name": "Bima Pratama",
+        "role": "Cloud Backend Engineer"
+      },
+      {
+        "name": "Satria Fadhil",
+        "role": "Security Reviewer"
+      }
+    ],
+    "liveUrl": "https://example.com/cloudvault",
+    "githubUrl": "https://github.com/example/cloudvault",
+    "status": "Completed",
+    "featured": false
+  },
+  {
+    "id": 11,
+    "title": "GeoSpatial Fleet - Realtime Vehicle Tracking API",
+    "slug": "geospatial-fleet",
+    "category": "Cloud & IoT",
+    "summary": "Infrastruktur microservice untuk pemantauan ratusan armada logistik secara simultan dengan geofencing cerdas.",
+    "description": "GeoSpatial Fleet menangani jutaan titik koordinat GPS per jam. Dilengkapi kemampuan notifikasi instan apabila kendaraan logistik keluar dari jalur koridor pengiriman yang ditentukan.",
+    "features": [
+      "Pipeline pengolahan data geospasial throughput tinggi",
+      "Deteksi pelanggaran zona geofence dalam hitungan milidetik",
+      "Analisis konsumsi bahan bakar dan perilaku pengemudi",
+      "REST & gRPC endpoint terintegrasi dashboard operator"
+    ],
+    "techStack": [
+      "Node.js",
+      "Redis PubSub",
+      "PostGIS",
+      "Vue 3",
+      "Leaflet"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 4,
+    "leadMemberName": "Bima Pratama",
+    "contributors": [
+      {
+        "name": "Bima Pratama",
+        "role": "Backend Architect"
+      },
+      {
+        "name": "Ahmad Farhan",
+        "role": "Dashboard Frontend"
+      }
+    ],
+    "liveUrl": "https://example.com/geospatial",
+    "githubUrl": "https://github.com/example/geospatial-fleet",
+    "status": "Completed",
+    "featured": false
+  },
+  {
+    "id": 12,
+    "title": "SecureAuth - Enterprise SSO & Identity Gateway",
+    "slug": "secureauth-gateway",
+    "category": "Web Application",
+    "summary": "Gateway autentikasi terpusat dengan protokol OAuth2, OpenID Connect, multi-factor authentication (MFA), dan audit trail.",
+    "description": "Solusi single sign-on (SSO) untuk menghubungkan berbagai aplikasi internal kampus/perusahaan dalam satu kredensial aman dengan proteksi brute-force dan deteksi anomali login.",
+    "features": [
+      "Dukungan TOTP Authenticator & FIDO2 passkeys",
+      "Dashboard manajemen tenant dan perizinan scope OAuth",
+      "Session management dengan opsi terminate remote device",
+      "Compliance logging sesuai standar keamanan informasi"
+    ],
+    "techStack": [
+      "Vue.js",
+      "Express.js",
+      "OAuth2",
+      "Tailwind CSS",
+      "PostgreSQL"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 4,
+    "leadMemberName": "Bima Pratama",
+    "contributors": [
+      {
+        "name": "Bima Pratama",
+        "role": "Security & Backend Lead"
+      },
+      {
+        "name": "Rizky Ramadhan",
+        "role": "Penetration Tester"
+      }
+    ],
+    "liveUrl": "https://example.com/secureauth",
+    "githubUrl": "https://github.com/example/secureauth",
+    "status": "Completed",
+    "featured": false
+  },
+  {
+    "id": 13,
+    "title": "FitPulse - Calorie & Workout Tracker",
+    "slug": "fitpulse-tracker",
+    "category": "Mobile App",
+    "summary": "Aplikasi kebugaran mobile untuk pencatatan repetisi latihan beban, target makronutrisi harian, dan grafik progres tubuh.",
+    "description": "FitPulse hadir untuk menggantikan catatan latihan kertas para pegiat gym. Antarmuka dirancang dengan tombol kontras tinggi yang nyaman dioperasikan saat tangan berkeringat di tengah sesi latihan.",
+    "features": [
+      "Rest timer otomatis antar-set dengan getaran haptik",
+      "Database makanan lokal Indonesia lengkap kalori & protein",
+      "Grafik progres beban angkatan mingguan dan bulanan",
+      "Mode hemat baterai AMOLED hitam pekat"
+    ],
+    "techStack": [
+      "Vue 3",
+      "Capacitor",
+      "Pinia",
+      "Tailwind CSS",
+      "Chart.js"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 5,
+    "leadMemberName": "Rizky Ramadhan",
+    "contributors": [
+      {
+        "name": "Rizky Ramadhan",
+        "role": "Mobile Developer & QA"
+      },
+      {
+        "name": "Nadia Putri",
+        "role": "UI Designer"
+      }
+    ],
+    "liveUrl": "https://example.com/fitpulse",
+    "githubUrl": "https://github.com/example/fitpulse",
+    "status": "Completed",
+    "featured": false
+  },
+  {
+    "id": 14,
+    "title": "QuickDine - Contactless Restaurant Menu & POS",
+    "slug": "quickdine-pos",
+    "category": "Mobile App",
+    "summary": "Sistem pemesanan makanan mandiri lewat scan QR meja tanpa perlu instalasi aplikasi, terintegrasi printer kasir dapur.",
+    "description": "QuickDine mempercepat perputaran meja restoran saat jam sibuk. Pelanggan cukup memindai QR di meja, memilih menu dengan foto menarik, dan pesanan otomatis masuk ke layar koki dapur.",
+    "features": [
+      "Scan QR meja instan via kamera tanpa download app",
+      "Kustomisasi pesanan (level pedas, no bawang, extra topping)",
+      "Split bill otomatis per orang di satu meja",
+      "Kitchen Display System (KDS) real-time untuk koki"
+    ],
+    "techStack": [
+      "Vue 3",
+      "Tailwind CSS",
+      "WebSockets",
+      "Pinia",
+      "Supabase"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 5,
+    "leadMemberName": "Rizky Ramadhan",
+    "contributors": [
+      {
+        "name": "Rizky Ramadhan",
+        "role": "Lead App Developer"
+      },
+      {
+        "name": "Ahmad Farhan",
+        "role": "Frontend Assistant"
+      }
+    ],
+    "liveUrl": "https://example.com/quickdine",
+    "githubUrl": "https://github.com/example/quickdine",
+    "status": "Completed",
+    "featured": false
+  },
+  {
+    "id": 15,
+    "title": "SkillBridge - Mentorship & Career Matcher",
+    "slug": "skillbridge-mentorship",
+    "category": "Web Application",
+    "summary": "Platform penghubung mahasiswa tingkat akhir dengan mentor profesional industri teknologi untuk review CV dan portofolio.",
+    "description": "SkillBridge memfasilitasi bimbingan karier 1-on-1. Dilengkapi algoritma pencocokan minat teknologi, kalender penjadwalan sesi sinkron, dan ruang feedback portofolio interaktif.",
+    "features": [
+      "Algoritma pencocokan profil mentor-mentee berbasis skill tags",
+      "Kalender integrasi Google Calendar untuk booking slot",
+      "Canvas annotator untuk review file portofolio secara langsung",
+      "Sistem review dan testimoni mentor terverifikasi"
+    ],
+    "techStack": [
+      "Vue.js",
+      "Tailwind CSS",
+      "Pinia",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 5,
+    "leadMemberName": "Rizky Ramadhan",
+    "contributors": [
+      {
+        "name": "Rizky Ramadhan",
+        "role": "Fullstack Developer"
+      },
+      {
+        "name": "Satria Fadhil",
+        "role": "Backend Consultant"
+      }
+    ],
+    "liveUrl": "https://example.com/skillbridge",
+    "githubUrl": "https://github.com/example/skillbridge",
+    "status": "Completed",
+    "featured": false
+  },
+  {
+    "id": 16,
+    "title": "SentimentLens - Social Media Insight Engine",
+    "slug": "sentimentlens-engine",
+    "category": "AI & Data",
+    "summary": "Dashboard analitik sentimen publik terhadap brand/isu menggunakan pemrosesan bahasa alami (NLP) bahasa Indonesia.",
+    "description": "SentimentLens melakukan analisis sentimen terhadap ribuan percakapan media sosial secara otomatis. Memberikan skor sentimen (positif, netral, negatif), wordcloud topik hangat, dan deteksi krisis reputasi brand.",
+    "features": [
+      "Pipeline NLP klasifikasi sentimen akurasi 92%",
+      "Interactive word cloud dan topik tren secara berkala",
+      "Deteksi lonjakan keluhan pelanggan dengan peringatan instan",
+      "Ekspor laporan infografis otomatis dalam format PDF"
+    ],
+    "techStack": [
+      "Vue 3",
+      "Python FastAPI",
+      "HuggingFace Transformers",
+      "Tailwind CSS",
+      "ApexCharts"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 6,
+    "leadMemberName": "Siti Aisyah",
+    "contributors": [
+      {
+        "name": "Siti Aisyah",
+        "role": "Data Scientist & AI Specialist"
+      },
+      {
+        "name": "Ahmad Farhan",
+        "role": "Dashboard Frontend"
+      }
+    ],
+    "liveUrl": "https://example.com/sentimentlens",
+    "githubUrl": "https://github.com/example/sentimentlens",
+    "status": "Completed",
+    "featured": false
+  },
+  {
+    "id": 17,
+    "title": "CropYield AI - Agricultural Yield Forecasting",
+    "slug": "cropyield-ai",
+    "category": "AI & Data",
+    "summary": "Model prediktif hasil panen komoditas padi dan jagung berdasarkan data historis curah hujan dan indeks vegetasi satelit.",
+    "description": "Membantu dinas pertanian dan kelompok tani memproyeksikan estimasi panen hingga 3 bulan sebelum masa panen. Menghasilkan peta zonasi produktivitas lahan berbasis citra satelit Sentinel-2.",
+    "features": [
+      "Prediksi tonase panen per hektar dengan machine learning",
+      "Peta tematik NDVI (Normalized Difference Vegetation Index)",
+      "Rekomendasi takaran pupuk dan waktu tanam optimal",
+      "Dashboard visualisasi interaktif multi-provinsi"
+    ],
+    "techStack": [
+      "Vue.js",
+      "Python",
+      "Scikit-Learn",
+      "Leaflet",
+      "Tailwind CSS"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 6,
+    "leadMemberName": "Siti Aisyah",
+    "contributors": [
+      {
+        "name": "Siti Aisyah",
+        "role": "AI & ML Engineer"
+      },
+      {
+        "name": "Bima Pratama",
+        "role": "Data Pipeline"
+      }
+    ],
+    "liveUrl": "https://example.com/cropyield",
+    "githubUrl": "https://github.com/example/cropyield-ai",
+    "status": "Completed",
+    "featured": false
+  },
+  {
+    "id": 18,
+    "title": "ChatDoc AI - Healthcare FAQ Assistant",
+    "slug": "chatdoc-ai",
+    "category": "AI & Data",
+    "summary": "Chatbot asisten medis terpandu untuk edukasi pertolongan pertama, informasi obat bebas, dan rujukan faskes terdekat.",
+    "description": "ChatDoc menggunakan model Retrieval-Augmented Generation (RAG) untuk memberikan jawaban kesehatan akurat berdasarkan pedoman medis Kementerian Kesehatan tanpa memberikan diagnosa spekulatif.",
+    "features": [
+      "Antarmuka chat percakapan natural dengan streaming respons",
+      "Verifikasi sumber rujukan medis di setiap jawaban",
+      "Panduan pertolongan pertama interaktif dengan visualisasi tahapan",
+      "Fitur pencari lokasi IGD rumah sakit terdekat"
+    ],
+    "techStack": [
+      "Vue 3",
+      "Vite",
+      "LangChain",
+      "FastAPI",
+      "Tailwind CSS"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "leadMemberId": 6,
+    "leadMemberName": "Siti Aisyah",
+    "contributors": [
+      {
+        "name": "Siti Aisyah",
+        "role": "NLP Engineer"
+      },
+      {
+        "name": "Nadia Putri",
+        "role": "Chat UX Designer"
+      },
+      {
+        "name": "Satria Fadhil",
+        "role": "Integration Lead"
+      }
+    ],
+    "liveUrl": "https://example.com/chatdoc",
+    "githubUrl": "https://github.com/example/chatdoc-ai",
+    "status": "Completed",
+    "featured": false
+  }
+]
