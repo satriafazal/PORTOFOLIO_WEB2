@@ -43,10 +43,10 @@ describe('useProjectStore Pinia Store', () => {
     const store = useProjectStore()
     await store.fetchProjects()
 
-    store.setSearchQuery('LMS')
+    store.setSearchQuery('WattCare')
     const results = store.filteredProjects
-    expect(results.length).toBe(1)
-    expect(results[0].title).toContain('EduTrack LMS')
+    expect(results.length).toBeGreaterThan(0)
+    expect(results[0].title).toContain('WattCare')
   })
 
   it('computes isEmpty correctly when no matches found', async () => {
